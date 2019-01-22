@@ -8,7 +8,7 @@ Because you are so nice :*
 
 //forward start
 forward MyHttpResponse(playerid, response_code, data[]);
-forward OnPlayerUseVPN(playerid); //called when player use vpn, you can use this on your gamemode/filterscript.
+forward OnPlayerUseProxy(playerid); //called when player use proxy/vpn, you can use this on your gamemode/filterscript.
 //forward end
 
 #include <a_samp>
