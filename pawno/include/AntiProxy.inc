@@ -50,7 +50,7 @@ public MyHttpResponse(playerid, response_code, data[])
 	{	
 		if(data[0] == 'Y')
 		{
-			CallLocalFunction("OnPlayerUseVPN", "i", playerid);
+			CallLocalFunction("OnPlayerUseProxy", "i", playerid);
 		}
 	}
 	else
